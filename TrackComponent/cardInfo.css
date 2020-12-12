@@ -1,0 +1,39 @@
+.track_cards_cases{
+ cursor: pointer;
+ border-radius: 2vw;
+ width: 32%;
+ height: 80%;
+ display: flex;
+ text-align: center;
+ position: relative;
+ align-items: center;
+ justify-content: center;
+ background: rgb(255, 255, 255);
+}
+.selected_card{
+ border-top: 0.8vw solid greenyellow;
+}
+.track_cards_cases_h2{
+ font-size: 1.6vw !important;
+color: green;
+ font-weight: bolder;
+}
+.track_cards_cases_content{
+ font-weight: 600;
+ font-size: 2.3vw !important;
+}
+.selected_red{
+ border-color: red !important;
+}
+@media screen and (max-width:600px){
+ .track_cards_cases_h2{
+ font-size: 2.3vw !important;
+}
+.track_cards_cases_content{
+ font-size: 2.4vw !important;
+}
+
+.selected_card{
+ border-top: 1.2vw solid greenyellow;
+}
+}

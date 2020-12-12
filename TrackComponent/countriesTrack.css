@@ -1,0 +1,35 @@
+.table{
+ width: 100%;
+ height: 75%;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ flex: 1;
+ justify-content: space-between;
+ text-align: start;
+}
+ ::-webkit-scrollbar{
+  width: 1vw;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 .5vw grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(122, 122, 122); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7710d8; 
+}
+
+.table tr:nth-of-type(odd){
+ background: #bbbbbb;
+}
+td{
+ width: 100% !important;
+}

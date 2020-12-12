@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+* {
+  font-size: 2vw;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home_all {
+  background-color: rgb(186, 68, 223);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+/* START THE HEADER */
+.header_all {
+  font-weight: 800;
+  width: 100%;
+  height: 7.5vw;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.left_header {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 3%;
+  height: 100%;
+  width: 15vw;
+}
+.right_header {
+  margin-right: 3%;
+  width: 24vw;
+  position: relative;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.left_header a,.right_header a {
+  font-family: "Great Vibes", cursive !important;
+  font-size: 2.5vw;
+}
+/* END THE HEADER */
+/* START THE BODY */
+.body_all {
+  width: 100%;
+  height: calc(100vh - 7.5vw);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.body_logo {
+  width: 40%;
+  height: 17vw;
+  background-image: url(Sujina.png);
+  background-size: 100% 100%;
+}
+.body_search {
+  width: 60%;
+  height: 6vw;
+  background: white;
+  border-radius: 10vw;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.under_search {
+  width: 45%;
+  height: 5vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  margin-top: 1.5vw;
+}
+.final_info {
+  width: 100%;
+  position: absolute;
+  height: 6vw;
+  background: #a03878;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+.final_info p{
+  padding-left: 5%;
+}
+.final_info a {
+  padding-right: 5%;
+}
+.koko {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 900px) {
+  .header_all {
+    height: 15vw;
+  }
+  .left_header {
+    width: 26vw;
+  }
+  .left_header a {
+    font-size: 4vw !important;
+  }
+  .right_header {
+    width: 38vw;
+  }
+  .right_header a {
+    font-size: 4vw !important;
+  }
+  .body_all {
+    height: calc(100vh - 15vw);
+  }
+  .body_search {
+    width: 80%;
+    height: 10vw;
+  }
+.under_search {
+  height: 8vw;
+}
+  .final_info {
+    height: 15vw;
+    font-size: 4vw !important;
+  }
+  .final_info p {
+    font-size: 4vw !important;
+  }
+  .final_info a {
+    font-size: 4vw !important;
+  }
+}
